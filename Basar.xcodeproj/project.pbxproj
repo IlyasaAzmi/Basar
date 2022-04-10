@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAFA7D262801446200E9921F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D252801446200E9921F /* Tests_iOS.swift */; };
+		DAFA7D282801446200E9921F /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D272801446200E9921F /* Tests_iOSLaunchTests.swift */; };
+		DAFA7D322801446200E9921F /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D312801446200E9921F /* Tests_macOS.swift */; };
+		DAFA7D342801446200E9921F /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D332801446200E9921F /* Tests_macOSLaunchTests.swift */; };
+		DAFA7D352801446200E9921F /* BasarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D0D2801446000E9921F /* BasarApp.swift */; };
+		DAFA7D362801446200E9921F /* BasarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D0D2801446000E9921F /* BasarApp.swift */; };
+		DAFA7D372801446200E9921F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D0E2801446000E9921F /* ContentView.swift */; };
+		DAFA7D382801446200E9921F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D0E2801446000E9921F /* ContentView.swift */; };
+		DAFA7D392801446200E9921F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFA7D0F2801446200E9921F /* Assets.xcassets */; };
+		DAFA7D3A2801446200E9921F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAFA7D0F2801446200E9921F /* Assets.xcassets */; };
+		DAFA7D4B2801580200E9921F /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DAFA7D4A2801580200E9921F /* chair_swan.usdz */; };
+		DAFA7D4D280159D500E9921F /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D4C280159D500E9921F /* ControlView.swift */; };
+		DAFA7D4F2801623A00E9921F /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D4E2801623A00E9921F /* BrowseView.swift */; };
+		DAFA7D512801657B00E9921F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D502801657B00E9921F /* Model.swift */; };
+		DAFA7D5328016FE900E9921F /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D5228016FE900E9921F /* PlacementSettings.swift */; };
+		DAFA7D5528017ABC00E9921F /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D5428017ABC00E9921F /* PlacementView.swift */; };
+		DAFA7D58280186C000E9921F /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = DAFA7D57280186C000E9921F /* FocusEntity */; };
+		DAFA7D5A280186EC00E9921F /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D59280186EC00E9921F /* CustomARView.swift */; };
+		DAFA7D5C280194E200E9921F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D5B280194E200E9921F /* View+Extensions.swift */; };
+		DAFA7D5E280262A500E9921F /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D5D280262A500E9921F /* SessionSettings.swift */; };
+		DAFA7D602802635600E9921F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFA7D5F2802635600E9921F /* SettingsView.swift */; };
+		DAFA7D632802749900E9921F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DAFA7D622802749900E9921F /* FirebaseAuth */; };
+		DAFA7D652802749900E9921F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DAFA7D642802749900E9921F /* FirebaseFirestore */; };
+		DAFA7D672802749900E9921F /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DAFA7D662802749900E9921F /* FirebaseFirestoreSwift-Beta */; };
+		DAFA7D692802749900E9921F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DAFA7D682802749900E9921F /* FirebaseStorage */; };
+		DAFA7D6B2802749900E9921F /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DAFA7D6A2802749900E9921F /* FirebaseStorageSwift-Beta */; };
+		DAFA7D6D2802752700E9921F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFA7D6C2802752700E9921F /* GoogleService-Info.plist */; };
+		DAFA7D6E2802752700E9921F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFA7D6C2802752700E9921F /* GoogleService-Info.plist */; };
+		DAFA7D6F2802752700E9921F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFA7D6C2802752700E9921F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAFA7D222801446200E9921F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFA7D082801446000E9921F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFA7D132801446200E9921F;
+			remoteInfo = "Basar (iOS)";
+		};
+		DAFA7D2E2801446200E9921F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAFA7D082801446000E9921F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFA7D192801446200E9921F;
+			remoteInfo = "Basar (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAFA7D0D2801446000E9921F /* BasarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasarApp.swift; sourceTree = "<group>"; };
+		DAFA7D0E2801446000E9921F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAFA7D0F2801446200E9921F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAFA7D142801446200E9921F /* Basar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFA7D1A2801446200E9921F /* Basar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFA7D1C2801446200E9921F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DAFA7D212801446200E9921F /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFA7D252801446200E9921F /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		DAFA7D272801446200E9921F /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		DAFA7D2D2801446200E9921F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFA7D312801446200E9921F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		DAFA7D332801446200E9921F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		DAFA7D4A2801580200E9921F /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = chair_swan.usdz; path = ../../../../../Downloads/chair_swan.usdz; sourceTree = "<group>"; };
+		DAFA7D4C280159D500E9921F /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		DAFA7D4E2801623A00E9921F /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		DAFA7D502801657B00E9921F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DAFA7D5228016FE900E9921F /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		DAFA7D5428017ABC00E9921F /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		DAFA7D59280186EC00E9921F /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		DAFA7D5B280194E200E9921F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		DAFA7D5D280262A500E9921F /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
+		DAFA7D5F2802635600E9921F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DAFA7D6C2802752700E9921F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAFA7D112801446200E9921F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA7D58280186C000E9921F /* FocusEntity in Frameworks */,
+				DAFA7D672802749900E9921F /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				DAFA7D632802749900E9921F /* FirebaseAuth in Frameworks */,
+				DAFA7D692802749900E9921F /* FirebaseStorage in Frameworks */,
+				DAFA7D652802749900E9921F /* FirebaseFirestore in Frameworks */,
+				DAFA7D6B2802749900E9921F /* FirebaseStorageSwift-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA7D172801446200E9921F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA7D1E2801446200E9921F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA7D2A2801446200E9921F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAFA7D072801446000E9921F = {
+			isa = PBXGroup;
+			children = (
+				DAFA7D0C2801446000E9921F /* Shared */,
+				DAFA7D1B2801446200E9921F /* macOS */,
+				DAFA7D242801446200E9921F /* Tests iOS */,
+				DAFA7D302801446200E9921F /* Tests macOS */,
+				DAFA7D152801446200E9921F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAFA7D0C2801446000E9921F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA7D0D2801446000E9921F /* BasarApp.swift */,
+				DAFA7D0E2801446000E9921F /* ContentView.swift */,
+				DAFA7D59280186EC00E9921F /* CustomARView.swift */,
+				DAFA7D4C280159D500E9921F /* ControlView.swift */,
+				DAFA7D4E2801623A00E9921F /* BrowseView.swift */,
+				DAFA7D5428017ABC00E9921F /* PlacementView.swift */,
+				DAFA7D5F2802635600E9921F /* SettingsView.swift */,
+				DAFA7D5228016FE900E9921F /* PlacementSettings.swift */,
+				DAFA7D5D280262A500E9921F /* SessionSettings.swift */,
+				DAFA7D502801657B00E9921F /* Model.swift */,
+				DAFA7D5B280194E200E9921F /* View+Extensions.swift */,
+				DAFA7D49280156BE00E9921F /* 3D Assets */,
+				DAFA7D0F2801446200E9921F /* Assets.xcassets */,
+				DAFA7D6C2802752700E9921F /* GoogleService-Info.plist */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DAFA7D152801446200E9921F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA7D142801446200E9921F /* Basar.app */,
+				DAFA7D1A2801446200E9921F /* Basar.app */,
+				DAFA7D212801446200E9921F /* Tests iOS.xctest */,
+				DAFA7D2D2801446200E9921F /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAFA7D1B2801446200E9921F /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA7D1C2801446200E9921F /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		DAFA7D242801446200E9921F /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA7D252801446200E9921F /* Tests_iOS.swift */,
+				DAFA7D272801446200E9921F /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		DAFA7D302801446200E9921F /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA7D312801446200E9921F /* Tests_macOS.swift */,
+				DAFA7D332801446200E9921F /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		DAFA7D49280156BE00E9921F /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DAFA7D4A2801580200E9921F /* chair_swan.usdz */,
+			);
+			path = "3D Assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAFA7D132801446200E9921F /* Basar (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFA7D3D2801446200E9921F /* Build configuration list for PBXNativeTarget "Basar (iOS)" */;
+			buildPhases = (
+				DAFA7D102801446200E9921F /* Sources */,
+				DAFA7D112801446200E9921F /* Frameworks */,
+				DAFA7D122801446200E9921F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basar (iOS)";
+			packageProductDependencies = (
+				DAFA7D57280186C000E9921F /* FocusEntity */,
+				DAFA7D622802749900E9921F /* FirebaseAuth */,
+				DAFA7D642802749900E9921F /* FirebaseFirestore */,
+				DAFA7D662802749900E9921F /* FirebaseFirestoreSwift-Beta */,
+				DAFA7D682802749900E9921F /* FirebaseStorage */,
+				DAFA7D6A2802749900E9921F /* FirebaseStorageSwift-Beta */,
+			);
+			productName = "Basar (iOS)";
+			productReference = DAFA7D142801446200E9921F /* Basar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAFA7D192801446200E9921F /* Basar (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFA7D402801446200E9921F /* Build configuration list for PBXNativeTarget "Basar (macOS)" */;
+			buildPhases = (
+				DAFA7D162801446200E9921F /* Sources */,
+				DAFA7D172801446200E9921F /* Frameworks */,
+				DAFA7D182801446200E9921F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basar (macOS)";
+			productName = "Basar (macOS)";
+			productReference = DAFA7D1A2801446200E9921F /* Basar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAFA7D202801446200E9921F /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFA7D432801446200E9921F /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				DAFA7D1D2801446200E9921F /* Sources */,
+				DAFA7D1E2801446200E9921F /* Frameworks */,
+				DAFA7D1F2801446200E9921F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFA7D232801446200E9921F /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = DAFA7D212801446200E9921F /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DAFA7D2C2801446200E9921F /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAFA7D462801446200E9921F /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				DAFA7D292801446200E9921F /* Sources */,
+				DAFA7D2A2801446200E9921F /* Frameworks */,
+				DAFA7D2B2801446200E9921F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAFA7D2F2801446200E9921F /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = DAFA7D2D2801446200E9921F /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAFA7D082801446000E9921F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DAFA7D132801446200E9921F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					DAFA7D192801446200E9921F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					DAFA7D202801446200E9921F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DAFA7D132801446200E9921F;
+					};
+					DAFA7D2C2801446200E9921F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = DAFA7D192801446200E9921F;
+					};
+				};
+			};
+			buildConfigurationList = DAFA7D0B2801446000E9921F /* Build configuration list for PBXProject "Basar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAFA7D072801446000E9921F;
+			packageReferences = (
+				DAFA7D56280186C000E9921F /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				DAFA7D612802749800E9921F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DAFA7D152801446200E9921F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAFA7D132801446200E9921F /* Basar (iOS) */,
+				DAFA7D192801446200E9921F /* Basar (macOS) */,
+				DAFA7D202801446200E9921F /* Tests iOS */,
+				DAFA7D2C2801446200E9921F /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAFA7D122801446200E9921F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA7D4B2801580200E9921F /* chair_swan.usdz in Resources */,
+				DAFA7D392801446200E9921F /* Assets.xcassets in Resources */,
+				DAFA7D6D2802752700E9921F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA7D182801446200E9921F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA7D3A2801446200E9921F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA7D1F2801446200E9921F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA7D6E2802752700E9921F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA7D2B2801446200E9921F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA7D6F2802752700E9921F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAFA7D102801446200E9921F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA7D5328016FE900E9921F /* PlacementSettings.swift in Sources */,
+				DAFA7D5E280262A500E9921F /* SessionSettings.swift in Sources */,
+				DAFA7D5C280194E200E9921F /* View+Extensions.swift in Sources */,
+				DAFA7D512801657B00E9921F /* Model.swift in Sources */,
+				DAFA7D4F2801623A00E9921F /* BrowseView.swift in Sources */,
+				DAFA7D372801446200E9921F /* ContentView.swift in Sources */,
+				DAFA7D4D280159D500E9921F /* ControlView.swift in Sources */,
+				DAFA7D352801446200E9921F /* BasarApp.swift in Sources */,
+				DAFA7D5A280186EC00E9921F /* CustomARView.swift in Sources */,
+				DAFA7D5528017ABC00E9921F /* PlacementView.swift in Sources */,
+				DAFA7D602802635600E9921F /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA7D162801446200E9921F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA7D382801446200E9921F /* ContentView.swift in Sources */,
+				DAFA7D362801446200E9921F /* BasarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA7D1D2801446200E9921F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA7D282801446200E9921F /* Tests_iOSLaunchTests.swift in Sources */,
+				DAFA7D262801446200E9921F /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAFA7D292801446200E9921F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFA7D342801446200E9921F /* Tests_macOSLaunchTests.swift in Sources */,
+				DAFA7D322801446200E9921F /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAFA7D232801446200E9921F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFA7D132801446200E9921F /* Basar (iOS) */;
+			targetProxy = DAFA7D222801446200E9921F /* PBXContainerItemProxy */;
+		};
+		DAFA7D2F2801446200E9921F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAFA7D192801446200E9921F /* Basar (macOS) */;
+			targetProxy = DAFA7D2E2801446200E9921F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAFA7D3B2801446200E9921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAFA7D3C2801446200E9921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DAFA7D3E2801446200E9921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MVSY5VDK93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use augmented reality, need to access your camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyasaazmi.Basar;
+				PRODUCT_NAME = Basar;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAFA7D3F2801446200E9921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MVSY5VDK93;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To use augmented reality, need to access your camera";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyasaazmi.Basar;
+				PRODUCT_NAME = Basar;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAFA7D412801446200E9921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MVSY5VDK93;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyasaazmi.Basar;
+				PRODUCT_NAME = Basar;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAFA7D422801446200E9921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MVSY5VDK93;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyasaazmi.Basar;
+				PRODUCT_NAME = Basar;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DAFA7D442801446200E9921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MVSY5VDK93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyasaazmi.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Basar (iOS)";
+			};
+			name = Debug;
+		};
+		DAFA7D452801446200E9921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MVSY5VDK93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyasaazmi.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Basar (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAFA7D472801446200E9921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MVSY5VDK93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyasaazmi.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Basar (macOS)";
+			};
+			name = Debug;
+		};
+		DAFA7D482801446200E9921F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MVSY5VDK93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilyasaazmi.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Basar (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAFA7D0B2801446000E9921F /* Build configuration list for PBXProject "Basar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFA7D3B2801446200E9921F /* Debug */,
+				DAFA7D3C2801446200E9921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFA7D3D2801446200E9921F /* Build configuration list for PBXNativeTarget "Basar (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFA7D3E2801446200E9921F /* Debug */,
+				DAFA7D3F2801446200E9921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFA7D402801446200E9921F /* Build configuration list for PBXNativeTarget "Basar (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFA7D412801446200E9921F /* Debug */,
+				DAFA7D422801446200E9921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFA7D432801446200E9921F /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFA7D442801446200E9921F /* Debug */,
+				DAFA7D452801446200E9921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAFA7D462801446200E9921F /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFA7D472801446200E9921F /* Debug */,
+				DAFA7D482801446200E9921F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAFA7D56280186C000E9921F /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.5;
+			};
+		};
+		DAFA7D612802749800E9921F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 8.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAFA7D57280186C000E9921F /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAFA7D56280186C000E9921F /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+		DAFA7D622802749900E9921F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAFA7D612802749800E9921F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DAFA7D642802749900E9921F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAFA7D612802749800E9921F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DAFA7D662802749900E9921F /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAFA7D612802749800E9921F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		DAFA7D682802749900E9921F /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAFA7D612802749800E9921F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		DAFA7D6A2802749900E9921F /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAFA7D612802749800E9921F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DAFA7D082801446000E9921F /* Project object */;
+}
